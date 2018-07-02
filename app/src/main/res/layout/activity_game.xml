@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+    tools:context="com.hangman.sinapse.hangman.GameActivity">
+
+    <LinearLayout
+        android:id="@+id/telaCima"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtTema"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="@string/tema"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/txtScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/score_555555"
+                android:textAlignment="textEnd" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/gridPalavra"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/b0"
+                style="@style/letras"
+                android:onClick="vazio"
+                android:clickable="false"
+                android:text="w"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/b1"
+                style="@style/letras"
+                android:onClick="vazio"
+                android:clickable="false"
+                android:text="w"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/b2"
+                style="@style/letras"
+                android:onClick="vazio"
+                android:clickable="false"
+                android:text="w"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/b3"
+                style="@style/letras"
+                android:onClick="vazio"
+                android:clickable="false"
+                android:text="w"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/b4"
+                style="@style/letras"
+                android:onClick="vazio"
+                android:clickable="false"
+                android:text="w"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/b5"
+                style="@style/letras"
+                android:onClick="vazio"
+                android:clickable="false"
+                android:text="w"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/b6"
+                style="@style/letras"
+                android:onClick="vazio"
+                android:clickable="false"
+                android:text="w"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/b7"
+                style="@style/letras"
+                android:onClick="vazio"
+                android:clickable="false"
+                android:text="w"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/b8"
+                style="@style/letras"
+                android:onClick="vazio"
+                android:clickable="false"
+                android:text="w"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/b9"
+                style="@style/letras"
+                android:onClick="vazio"
+                android:clickable="false"
+                android:text="w"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/b10"
+                style="@style/letras"
+                android:onClick="vazio"
+                android:clickable="false"
+                android:text="w"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/b11"
+                style="@style/letras"
+                android:onClick="vazio"
+                android:clickable="false"
+                android:text="w"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/b12"
+                style="@style/letras"
+                android:onClick="vazio"
+                android:clickable="false"
+                android:text="w"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/b13"
+                style="@style/letras"
+                android:onClick="vazio"
+                android:clickable="false"
+                android:text="w"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/b14"
+                style="@style/letras"
+                android:onClick="vazio"
+                android:clickable="false"
+                android:text="w"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/b15"
+                style="@style/letras"
+                android:onClick="vazio"
+                android:clickable="false"
+                android:text="w"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/b16"
+                style="@style/letras"
+                android:onClick="vazio"
+                android:clickable="false"
+                android:text="w"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/b17"
+                style="@style/letras"
+                android:onClick="vazio"
+                android:clickable="false"
+                android:text="w"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/telaBaixo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/telaCima"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgForca"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            app:srcCompat="@drawable/forca" />
+
+        <LinearLayout
+            android:id="@+id/telaTeclado"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="178dp">
+
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-8152339859054893/3429268228"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <GridLayout
+                    android:id="@+id/gridNovoJogo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:visibility="gone">
+
+                    <Button
+                        android:id="@+id/btNovoJogo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:contextClickable="false"
+                        android:gravity="center"
+                        android:onClick="onClickNovoJogo"
+                        android:text="Nova Palavra"
+                        android:visibility="visible" />
+
+                    <Button
+                        android:id="@+id/btTema"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:gravity="center"
+                        android:onClick="novoTema"
+                        android:text="Novo Tema Aleatório"
+                        android:visibility="gone" />
+                </GridLayout>
+
+                <LinearLayout
+                    android:id="@+id/teclado"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <LinearLayout
+                        android:id="@+id/teclado1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/bQ"
+                            style="@style/teclado"
+                            android:text="Q" />
+
+                        <Button
+                            android:id="@+id/bW"
+                            style="@style/teclado"
+                            android:text="W" />
+
+                        <Button
+                            android:id="@+id/bE"
+                            style="@style/teclado"
+                            android:text="E" />
+
+                        <Button
+                            android:id="@+id/bR"
+                            style="@style/teclado"
+                            android:text="R" />
+
+                        <Button
+                            android:id="@+id/bT"
+                            style="@style/teclado"
+                            android:text="T" />
+
+                        <Button
+                            android:id="@+id/bY"
+                            style="@style/teclado"
+                            android:text="Y" />
+
+                        <Button
+                            android:id="@+id/bU"
+                            style="@style/teclado"
+                            android:text="U" />
+
+                        <Button
+                            android:id="@+id/bI"
+                            style="@style/teclado"
+                            android:text="I" />
+
+                        <Button
+                            android:id="@+id/bO"
+                            style="@style/teclado"
+                            android:text="O" />
+
+                        <Button
+                            android:id="@+id/bP"
+                            style="@style/teclado"
+                            android:text="P" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/teclado2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/bA"
+                            style="@style/teclado"
+                            android:text="A" />
+
+                        <Button
+                            android:id="@+id/bS"
+                            style="@style/teclado"
+                            android:text="S" />
+
+                        <Button
+                            android:id="@+id/bD"
+                            style="@style/teclado"
+                            android:text="D" />
+
+                        <Button
+                            android:id="@+id/bF"
+                            style="@style/teclado"
+                            android:text="F" />
+
+                        <Button
+                            android:id="@+id/bG"
+                            style="@style/teclado"
+                            android:text="G" />
+
+                        <Button
+                            android:id="@+id/bH"
+                            style="@style/teclado"
+                            android:text="H" />
+
+                        <Button
+                            android:id="@+id/bJ"
+                            style="@style/teclado"
+                            android:text="J" />
+
+                        <Button
+                            android:id="@+id/bK"
+                            style="@style/teclado"
+                            android:text="K" />
+
+                        <Button
+                            android:id="@+id/bL"
+                            style="@style/teclado"
+                            android:text="L" />
+
+                        <Button
+                            android:id="@+id/bCc"
+                            style="@style/teclado"
+                            android:text="Ç" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/teclado3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/bZ"
+                            style="@style/teclado"
+                            android:text="Z" />
+
+                        <Button
+                            android:id="@+id/bX"
+                            style="@style/teclado"
+                            android:text="X" />
+
+                        <Button
+                            android:id="@+id/bC"
+                            style="@style/teclado"
+                            android:text="C" />
+
+                        <Button
+                            android:id="@+id/bV"
+                            style="@style/teclado"
+                            android:text="V" />
+
+                        <Button
+                            android:id="@+id/bB"
+                            style="@style/teclado"
+                            android:text="B" />
+
+                        <Button
+                            android:id="@+id/bN"
+                            style="@style/teclado"
+                            android:text="N" />
+
+                        <Button
+                            android:id="@+id/bM"
+                            style="@style/teclado"
+                            android:text="M" />
+
+                        <Button
+                            android:id="@+id/bDica"
+                            style="@style/teclado"
+                            android:onClick="onClickDica"
+                            android:text="\?" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

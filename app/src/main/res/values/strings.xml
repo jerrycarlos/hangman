@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">hangman</string>
+
+    <string name="title_activity_fullscreen_test">FullscreenTest</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="tema">Tema</string>
+    <string name="labelEscolha">Escolha um modo e o tema para começar:</string>
+    <string name="score_555555">Score:</string>
+
+    <string name="title_activity_tela_tema">Difinições do Jogo</string>
+    <string name="jogar">Jogar!</string>
+    <string name="modo_do_jogo">Modo do Jogo:</string>
+    <string name="survive">Survive</string>
+    <string name="normal">Normal</string>
+    <string name="dif_cil">Difícil</string>
+</resources>

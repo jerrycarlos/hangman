@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">313039691559-1oqb6rh3ii7diksjl13kqsiqsh929m84.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://sinapse-518e7.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">313039691559</string>
+    <string name="google_api_key" translatable="false">AIzaSyAxr7Xx_FWHT9TvZWAcSJQEnYcZSWW_Dbc</string>
+    <string name="google_app_id" translatable="false">1:313039691559:android:eb9fe35663ac48ed</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAxr7Xx_FWHT9TvZWAcSJQEnYcZSWW_Dbc</string>
+    <string name="google_storage_bucket" translatable="false">sinapse-518e7.appspot.com</string>
+    <string name="project_id" translatable="false">sinapse-518e7</string>
+</resources>
